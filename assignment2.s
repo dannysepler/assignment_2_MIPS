@@ -1,32 +1,32 @@
-#############################################
-# Calculates the greatest common divisor	#
-# int gcd(int number1, int number2) {		#
-#	int remainder = number1 % number2;		#
-#	if (remainder == 0) {					#
-#		return number2;						#
-#	} else {								#
-#		return gcd(number2, remainder);		#
-#	}										#
-# }											#
-#											#
-# Calculates the least common multiple		#
-#											#
-#	int lcm(int number1, int number2) {		#############
-#		return number1*number2/gcd(number1, number2);	#
-#	}													#
-#														#
-#	int main() {										#
-# 		int n1, n2;										#
-# 		printf("Enter first integer n1: ");				#
-# 		scanf("%d", &n1);								#
-# 		printf("Enter second integer n2: ");			#############################
-# 		scanf("%d", &n2);															#
-# 		printf("The greatest common divisor of n1 and n2 is %d\n", gcd(n1, n2));	#
-# 		printf("The least common multiple of n1 and n2 is %d\n", lcm(n1, n2));		#
-# 		return 0;																	#
-#	}												#################################
-#													#
-#####################################################
+##################################################################################
+# Calculates the greatest common divisor	
+# int gcd(int number1, int number2) {		
+#	int remainder = number1 % number2;		
+#	if (remainder == 0) {					
+#		return number2;						
+#	} else {								
+#		return gcd(number2, remainder);		
+#	}										
+# }											
+#										
+# Calculates the least common multiple		
+#											
+#	int lcm(int number1, int number2) {		
+#		return number1*number2/gcd(number1, number2);	
+#	}													
+#														
+#	int main() {										
+# 		int n1, n2;										
+# 		printf("Enter first integer n1: ");				
+# 		scanf("%d", &n1);								
+# 		printf("Enter second integer n2: ");			
+# 		scanf("%d", &n2);															
+# 		printf("The greatest common divisor of n1 and n2 is %d\n", gcd(n1, n2));
+# 		printf("The least common multiple of n1 and n2 is %d\n", lcm(n1, n2));		
+# 		return 0;																	
+#	}												
+#													
+###################################################################################
 
 #############
 # constants
